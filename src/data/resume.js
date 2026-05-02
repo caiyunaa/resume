@@ -7,6 +7,7 @@ export const resume = {
   qq: '2924647177',
   email: '2924647177@qq.com',
   availability: '已离校，一周内到岗',
+  stats: { contributions: '1,244', period: '过去一年' },
 
   social: [
     { label: 'GitHub', url: 'https://github.com/caiyunaa', icon: 'git-branch' },
@@ -33,7 +34,7 @@ export const resume = {
     role: '前端开发实习生',
     period: '2025.8 ~ 至今',
     skills: [
-      { category: '前端基础', items: ['HTML5', 'CSS3', 'JavaScript(ES6+)', '闭包/原型链/异步编程'] },
+      { category: '前端基础', items: ['HTML5', 'CSS3', 'JavaScript(ES6+)', 'TypeScript', '闭包/原型链/异步编程'] },
       { category: 'Vue生态', items: ['Vue2/Vue3', 'Options/Composition API', 'Vuex/Pinia', 'Vue Router'] },
       { category: '工程化', items: ['Webpack', 'Vite', 'Git分支管理', 'ESLint+Prettier'] },
       { category: '多端开发', items: ['uni-app', '微信小程序', 'H5/APP/小程序适配'] },
@@ -60,6 +61,19 @@ export const resume = {
       ],
     },
     {
+      name: '互动营销活动系统',
+      role: '前端',
+      period: '2025.8 ~ 至今',
+      description: '企业核心互动营销平台，支持多种活动模板配置、实时数据看板、用户行为追踪，年度贡献超1,200次提交。',
+      stack: ['Vue', 'JavaScript', 'Vite', 'WebSocket'],
+      highlights: [
+        '负责活动配置、数据报表、用户互动等核心功能模块的日常开发与维护',
+        '独立管理发版流程，创建daily_online日常发版标签，保障线上稳定性',
+        '处理多分支并行开发，协调online/hcy_online分支的代码合并与冲突解决',
+        '参与活动模板化配置方案设计，提升运营配置效率',
+      ],
+    },
+    {
       name: '银行积分商城系统（电商方向）',
       role: '前端',
       period: '2025.9 ~ 至今',
@@ -77,12 +91,24 @@ export const resume = {
       role: '前端',
       period: '2025.10 ~ 2025.11',
       description: '基于Vue 3开发的在线海报设计工具，支持多种元素编辑和导出功能，为用户提供直观易用的设计体验。',
-      stack: ['Vue3', 'ECharts', 'Leafer UI', 'Vite', 'JavaScript'],
+      stack: ['Vue3', 'TypeScript', 'ECharts', 'Leafer UI', 'Vite'],
       highlights: [
         '负责扩展组件库，新增图标组件、基础图形组件、ECharts图表组件等10+组件类型',
         '实现图表组件数据绑定功能，支持动态数据可视化展示',
         '实现多种元素的编辑功能，如艺术字、图片、二维码、富文本等',
         '修复线上Bug，持续优化用户界面和交互流程',
+      ],
+    },
+    {
+      name: 'element-tiptap-vue3 富文本编辑器组件库',
+      role: '前端',
+      period: '2026.3 ~ 2026.4',
+      description: '基于Tiptap和Element Plus的Vue3企业级富文本编辑器组件库，支持Markdown编辑、12种语言国际化、可扩展插件系统。',
+      stack: ['Vue3', 'TypeScript', 'Tiptap', 'Element Plus', 'Vite'],
+      highlights: [
+        '独立完成组件库的配置优化、冗余组件清理及构建配置更新',
+        '熟悉Tiptap/ProseMirror编辑器架构，具备富文本编辑器定制开发能力',
+        '掌握TypeScript类型系统，编写类型安全的编辑器扩展API',
       ],
     },
     {
@@ -115,7 +141,7 @@ export const resume = {
   evaluation: [
     {
       title: '实战经验丰富',
-      description: '半年企业实习经验，参与SaaS、电商、低代码等多领域项目开发',
+      description: '8个月企业实习经验，参与SaaS、电商、低代码等多领域项目开发',
       icon: 'briefcase',
     },
     {

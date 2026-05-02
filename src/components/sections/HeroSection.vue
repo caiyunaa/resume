@@ -27,6 +27,10 @@ import { resume } from '../../data/resume.js'
       <div class="hero__availability reveal">
         到岗时间：{{ resume.availability }}
       </div>
+      <div class="hero__stats reveal">
+        <span class="hero__stat-value">{{ resume.stats.contributions }}</span>
+        <span class="hero__stat-label">{{ resume.stats.period }}代码贡献</span>
+      </div>
       <div class="hero__scroll reveal" @click="document.getElementById('education')?.scrollIntoView({ behavior: 'smooth' })">
         <span>滚动查看更多</span>
         <span class="hero__scroll-arrow">&darr;</span>
@@ -140,6 +144,26 @@ import { resume } from '../../data/resume.js'
   border-radius: 999px;
   background: var(--color-bg-tertiary);
   display: inline-block;
+}
+
+.hero__stats {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.35rem;
+}
+
+.hero__stat-value {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  font-family: var(--font-mono);
+  color: var(--color-accent);
+}
+
+.hero__stat-label {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
 }
 
 .hero__scroll {
