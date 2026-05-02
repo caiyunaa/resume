@@ -115,6 +115,29 @@ export const resume = {
       ],
     },
     {
+      name: '数据可视化平台（datav）',
+      role: '前端',
+      period: '2025.12 ~ 2026.1',
+      description: '企业内部数据可视化看板平台，支持动态环形图、环图等多种图表组件的配置化展示。',
+      stack: ['Vue', 'JavaScript', 'ECharts', 'Vite'],
+      highlights: [
+        '独立开发动态环图、动态环形图等ECharts图表组件，支持数据驱动的自适应渲染',
+        '设计组件颜色计算方案，实现图表配色根据数据动态生成，提升视觉表现力',
+        '解决图表组件边框刷新偏移等问题，保障大数据量下的渲染稳定性',
+      ],
+    },
+    {
+      name: 'kooteam 团队协作工具',
+      role: '前端',
+      period: '2025.11 ~ 2026.1',
+      description: '企业内部的轻量级团队知识管理与协作平台。',
+      stack: ['Vue', 'JavaScript', 'Vite'],
+      highlights: [
+        '参与前端功能迭代，负责项目构建配置优化与模块更新',
+        '协作完成功能模块的代码合并与版本同步',
+      ],
+    },
+    {
       name: 'element-tiptap-vue3 富文本编辑器组件库',
       role: '前端',
       period: '2026.3 ~ 至今',
