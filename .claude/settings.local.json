@@ -23,7 +23,8 @@
       "Bash(ssh *)",
       "Bash(gh auth *)",
       "Bash(brew install *)",
-      "Bash(ssh-add ~/.ssh/id_rsa)"
+      "Bash(ssh-add ~/.ssh/id_rsa)",
+      "Bash(open *)"
     ]
   }
 }
