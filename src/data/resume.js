@@ -7,6 +7,7 @@ export const resume = {
   email: '2924647177@qq.com',
 
   social: [
+    { label: 'GitHub', url: 'https://github.com/caiyunaa', icon: 'git-branch' },
     { label: 'GitCode', url: 'https://gitcode.com/Hcaiyun', icon: 'git-branch' },
     { label: 'Gitee', url: 'https://gitee.com/huangcaiyunyun', icon: 'git-fork' },
     { label: '企业 GitLab', url: 'https://git.proxy.yimiyisu.com/', icon: 'building-2' },

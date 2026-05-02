@@ -53,7 +53,7 @@ function scrollTo(id) {
           class="header__git-link"
           :title="s.label"
         >
-          {{ s.label === 'GitCode' ? 'GC' : s.label === 'Gitee' ? 'GE' : 'GL' }}
+          {{ s.label === 'GitHub' ? 'GH' : s.label === 'GitCode' ? 'GC' : s.label === 'Gitee' ? 'GE' : 'GL' }}
         </a>
         <button class="header__theme-btn" @click="toggleTheme" :aria-label="theme === 'dark' ? '切换亮色模式' : '切换暗色模式'">
           {{ theme === 'dark' ? '☀' : '☾' }}
