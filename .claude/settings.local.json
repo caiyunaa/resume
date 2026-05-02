@@ -24,7 +24,18 @@
       "Bash(gh auth *)",
       "Bash(brew install *)",
       "Bash(ssh-add ~/.ssh/id_rsa)",
-      "Bash(open *)"
+      "Bash(open *)",
+      "Bash(curl -sL --max-time 10 \"https://git.proxy.yimiyisu.com/api/v1/users/Hcaiyun/repos\")",
+      "Bash(curl -sL --max-time 10 \"https://git.proxy.yimiyisu.com/api/v1/users/huangcaiyun/repos\")",
+      "Read(//Users/weijianfeng/.claude/**)",
+      "Bash(curl -sL --max-time 10 \"https://git.proxy.yimiyisu.com/explore/users\")",
+      "Bash(curl -sL --max-time 10 \"https://git.proxy.yimiyisu.com/huangcaiyun\")",
+      "Bash(curl -sL --max-time 10 \"https://git.proxy.yimiyisu.com/api/v1/orgs/sly-local/repos\")",
+      "Bash(curl -sL --max-time 10 \"https://git.proxy.yimiyisu.com/api/v1/users/huangcaiyun/orgs\")",
+      "Bash(curl -sL --max-time 10 \"https://git.proxy.yimiyisu.com/api/v1/orgs\")",
+      "Bash(curl -s http://127.0.0.1:9222/json/new?https://git.proxy.yimiyisu.com/)",
+      "Bash(curl *)",
+      "Bash(pip3 install *)"
     ]
   }
 }
