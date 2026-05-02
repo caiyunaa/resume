@@ -92,7 +92,7 @@ export const resume = {
     {
       name: '可视化海报设计器（低代码组件方向）',
       role: '前端',
-      period: '2025.10 ~ 2025.11',
+      period: '2025.10 ~ 至今',
       description: '基于Vue 3 + TypeScript开发的在线海报编辑工具，支持拖拽式编辑、多元素自由排版与一键导出，提供类Canva的设计体验。',
       stack: ['Vue3', 'TypeScript', 'ECharts', 'Leafer UI', 'Vite'],
       highlights: [
@@ -103,9 +103,21 @@ export const resume = {
       ],
     },
     {
+      name: '可视化CMS内容管理系统',
+      role: '前端',
+      period: '2025.11 ~ 2026.2',
+      description: '面向运营人员的可视化内容管理平台，支持页面组件化搭建、秒杀活动配置及多类型内容发布。',
+      stack: ['Vue', 'JavaScript', 'Vite', 'Element UI'],
+      highlights: [
+        '独立开发秒杀组件、轮播组件、新闻组件、标题组件、分类组件等通用业务组件',
+        '封装swipeIcon交互组件与swipeChannel频道组件，提升运营配置灵活性',
+        '完善热门组件样式体系与动态分类组件逻辑，保障多场景下的视觉一致性',
+      ],
+    },
+    {
       name: 'element-tiptap-vue3 富文本编辑器组件库',
       role: '前端',
-      period: '2026.3 ~ 2026.4',
+      period: '2026.3 ~ 至今',
       description: '基于Tiptap（ProseMirror）与Element Plus封装的Vue 3企业级富文本编辑器组件库，支持Markdown编辑、12种语言国际化及可扩展插件体系。',
       stack: ['Vue3', 'TypeScript', 'Tiptap', 'ProseMirror', 'Element Plus', 'Vite'],
       highlights: [
