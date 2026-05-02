@@ -2,8 +2,9 @@ export const resume = {
   name: '黄彩云',
   title: '前端开发',
   degree: '本科',
-  city: '浙江',
-  phone: '191-5245-3449',
+  city: '浙江、深圳、广州',
+  phone: '191-XXXX-3449',
+  qq: '2924647177',
   email: '2924647177@qq.com',
 
   social: [

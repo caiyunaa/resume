@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(keybindings-help)",
+      "Bash(mdls *)",
+      "Bash(pdftotext \"/Users/weijianfeng/resume/黄彩云-简历-26届应届生 \\(4\\).pdf\" -)",
+      "Bash(python3 *)",
+      "Bash(brew list *)",
+      "Bash(qlmanage -t -s 1200 -o /tmp/resume_preview/ \"黄彩云-简历-26届应届生 \\(4\\).pdf\")",
+      "Read(//tmp/**)",
+      "WebFetch(domain:git.proxy.yimiyisu.com)",
+      "Bash(npm create *)",
+      "Bash(npm run *)",
+      "Bash(npx vite *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(kill %1)",
+      "Bash(git config *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git remote *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(ssh *)",
+      "Bash(gh auth *)",
+      "Bash(brew install *)",
+      "Bash(ssh-add ~/.ssh/id_rsa)"
+    ]
+  }
+}
