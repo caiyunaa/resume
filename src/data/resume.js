@@ -6,6 +6,7 @@ export const resume = {
   phone: '191-XXXX-3449',
   qq: '2924647177',
   email: '2924647177@qq.com',
+  availability: '离校后一周到岗',
 
   social: [
     { label: 'GitHub', url: 'https://github.com/caiyunaa', icon: 'git-branch' },

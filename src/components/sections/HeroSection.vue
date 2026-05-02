@@ -24,6 +24,9 @@ import { resume } from '../../data/resume.js'
           {{ resume.email }}
         </a>
       </div>
+      <div class="hero__availability reveal">
+        到岗时间：{{ resume.availability }}
+      </div>
       <div class="hero__scroll reveal" @click="document.getElementById('education')?.scrollIntoView({ behavior: 'smooth' })">
         <span>滚动查看更多</span>
         <span class="hero__scroll-arrow">&darr;</span>
@@ -126,6 +129,17 @@ import { resume } from '../../data/resume.js'
 
 .hero__contact-divider {
   color: var(--color-border);
+}
+
+.hero__availability {
+  margin-top: 0.75rem;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  font-family: var(--font-mono);
+  padding: 0.35em 1em;
+  border-radius: 999px;
+  background: var(--color-bg-tertiary);
+  display: inline-block;
 }
 
 .hero__scroll {
